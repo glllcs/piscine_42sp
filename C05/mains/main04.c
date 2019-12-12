@@ -30,6 +30,9 @@ int main(void)
 	n = 46;
 	printf("indice: %d = %d\n", n, ft_fibonacci(n));
 
+	n = 47;
+	printf("indice: %d = %d\n", n, ft_fibonacci(n));
+
 	n = -6;
 	printf("indice: %d = %d\n", n, ft_fibonacci(n));
 
