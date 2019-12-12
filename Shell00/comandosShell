@@ -1,0 +1,34 @@
+$ pwd					mostra caminho do arquivo
+
+ex01
+
+$ ls -l
+	-rwxr-x--x
+	 utilisateur
+   		group
+	  	    others
+$ chmod o+r <nomFichier>		alterar permissoes
+	-rwxr-xr-x
+$ chmod a-x <nomFichieri>	
+	-rw-r--r--
+$ chmod g+w <nomFichieri>	
+	-rw-rw-r--
+
+$ touch -t AAAAMMDDHHMM <nomFichier>		alterar data criação arquivo
+
+$ touch -h -t AAAAMMDDHHMM <nomFichier> 	mudar a data do atalho, não do arquivo
+
+$ tar -cf <nomFichier>.tar <nomFichier>
+
+$ ln -s <fichierOrigin> <nomeAtalho>		cria atalho para <fichierOrigin>
+
+
+ex03
+
+https://www.gta.ufrj.br/grad/99_2/marcos/kerberos.htm#utlizando
+$ kinit 		cria TGT do Kerberos
+
+$ klist			lista o TGT
+
+
+ls -A -m -tU -p

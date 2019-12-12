@@ -1,0 +1,2 @@
+for i in `find * -name 'ft*'`; do norminette -R  CheckForbiddenSourceHeader $i ; done
+gcc -Wall -Wextra -Werror main.c ft_* ; ./a.out
