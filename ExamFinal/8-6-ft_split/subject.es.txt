@@ -1,0 +1,16 @@
+Assignment name  : ft_split
+Expected files   : ft_split.c
+Allowed functions: malloc
+--------------------------------------------------------------------------------
+
+Escriba un función que reciba como parámetro una cadena de caracteres y la
+corte en palabras, que serán devueltas en forma de una tabla de cadenas
+acabada en NULL.
+
+Llamamos "palabra" a una porción de la cadena de caracteres delimitada por
+espacios, o saltos de línea, o tabulaciones, o el principio de la cadena, o el final
+de la cadena.
+
+El prototipo de su función deberá ser el siguiente:
+
+char    **ft_split(char *str);

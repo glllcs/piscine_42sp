@@ -1,0 +1,12 @@
+Assignment name  : ft_atoi
+Expected files   : ft_atoi.c
+Allowed functions: None
+--------------------------------------------------------------------------------
+
+Escriba una función que convierta una cadena en un entero (tipo int) y lo devuelva.
+
+Funciona como la función estándar atoi(const char *str), ver el man.
+
+El prototipo de la función será el siguiente:
+
+int	ft_atoi(const char *str);

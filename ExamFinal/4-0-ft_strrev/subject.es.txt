@@ -1,0 +1,12 @@
+Assignment name  : ft_strrev
+Expected files   : ft_strrev.c
+Allowed functions: 
+--------------------------------------------------------------------------------
+
+Escriba una función que modifique una cadena de caracteres invirtiéndola.
+
+Tendrá que devolver su parámetro.
+
+El prototipo de su función deberá ser el siguiente:
+
+char    *ft_strrev(char *str);

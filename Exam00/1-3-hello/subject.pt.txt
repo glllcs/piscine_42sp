@@ -1,0 +1,14 @@
+Assignment name  : hello
+Expected files   : hello.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Escreva um programa que exiba "Hello World!" seguido de um \n.
+
+Exemplo:
+
+$>./hello
+Hello World!
+$>./hello | cat -e
+Hello World!$
+$>

@@ -1,0 +1,12 @@
+Assignment name  : maff_alpha
+Expected files   : maff_alpha.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Escriba un programa que muestre el alfabeto, alternando minúsculas y mayúsculas
+(Ver el ejemplo), seguido de un '\n'.
+
+Ejemplo:
+
+$> ./maff_alpha | cat -e
+aBcDeFgHiJkLmNoPqRsTuVwXyZ$

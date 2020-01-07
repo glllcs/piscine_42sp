@@ -1,0 +1,12 @@
+Assignment name  : ft_atoi
+Expected files   : ft_atoi.c
+Allowed functions: None
+--------------------------------------------------------------------------------
+
+Escreva uma função que converta uma cadeia em um inteiro (tipo int) e o retorne.
+
+Funciona como a função padrão atoi(const char *str), veja o man.
+
+A função deve ser prototipada da seguinte forma:
+
+int	ft_atoi(const char *str);

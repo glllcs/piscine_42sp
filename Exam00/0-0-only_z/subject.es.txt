@@ -1,0 +1,6 @@
+Assignment name  : only_z
+Expected files   : only_z.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Escriba un programa que muestre un carácter 'z' en la salida estándar.

@@ -1,0 +1,10 @@
+Assignment name  : ft_strlen
+Expected files   : ft_strlen.c
+Allowed functions: 
+--------------------------------------------------------------------------------
+
+Escreva uma função que retorne o comprimento de uma cadeia de caracteres.
+
+Ela deverá ser prototipada da seguinte forma:
+
+int	ft_strlen(char *str);

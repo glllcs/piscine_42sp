@@ -1,0 +1,19 @@
+Assignment name  : ft_range
+Expected files   : ft_range.c
+Allowed functions: malloc
+--------------------------------------------------------------------------------
+
+Escreva a seguinte função:
+
+int     *ft_range(int start, int end);
+
+Essa função deve alocar com malloc() uma matriz de int, completá-la com
+os valores (consecutivos) começando em start e terminando em end (start e end
+incluídos!) e retornar um ponteiro para o primeiro valor da matriz.
+
+Exemplos:
+
+- Para (1, 3), você deverá retornar uma matriz que contenha 1, 2 e 3.
+- Para (-1, 2), você deverá retornar uma matriz que contenha -1, 0, 1 e 2.
+- Para (0, 0), você deverá retornar uma matriz que contenha 0.
+- Para (0, -3), você deverá retornar uma matriz que contenha 0, -1, -2 e -3.

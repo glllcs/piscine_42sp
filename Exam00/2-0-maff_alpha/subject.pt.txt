@@ -1,0 +1,12 @@
+Assignment name  : maff_alpha
+Expected files   : maff_alpha.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Escreva um programa que mostre o alfabeto com uma letra a cada duas em minúsculo, e as
+outras em maiúsculo (Ver o exemplo), seguido de um '\n'.
+
+Exemplo:
+
+$> ./maff_alpha | cat -e
+aBcDeFgHiJkLmNoPqRsTuVwXyZ$

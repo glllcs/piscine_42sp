@@ -1,0 +1,12 @@
+Assignment name  : ft_putstr
+Expected files   : ft_putstr.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Escreva uma função que exiba uma cadeia de caracteres na saída padrão.
+
+O ponteiro passado para a função é o endereço do primeiro caractere da cadeia.
+
+Ela deverá ser prototipada da seguinte forma:
+
+void	ft_putstr(char *str);

@@ -3,43 +3,38 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lambrozi <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: exam <marvin@42.fr>                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/11/29 16:05:11 by lambrozi          #+#    #+#             */
-/*   Updated: 2019/12/09 17:13:37 by lambrozi         ###   ########.fr       */
+/*   Created: 2019/12/13 12:30:24 by exam              #+#    #+#             */
+/*   Updated: 2019/12/13 12:49:04 by exam             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_isspace(char c)
+int	ft_atoi(const char *str)
 {
-	if (c == ' ' || c == '\t' || c == '\n' ||
-		c == '\v' || c == '\f' || c == '\r')
-		return (1);
-	return (0);
-}
-
-int	ft_atoi(char *str)
-{
-	int i;
+	int nbr;
 	int signe;
-	int numb;
+	int i;
 
 	i = 0;
-	numb = 0;
+	nbr = 0;
 	signe = 1;
-	while (ft_isspace(str[i]))
-		i++;
-	while (str[i] == '-' || str[i] == '+')
+	while(str[i] == ' ' || str[i] == '\t')
 	{
-		if (str[i] == '-')
-			signe = signe * -1;
 		i++;
 	}
-	while (str[i] >= '0' && str[i] <= '9')
+	if (str[i] == '+')
+		i++;
+	else if (str[i] == '-')
 	{
-		numb = numb * 10 + (str[i] - 48);
+		signe = -1;
 		i++;
 	}
-	numb = numb * signe;
-	return (numb);
+	while(str[i] >= '0' && str[i] <= '9')
+	{
+		nbr = 10 * nbr + (str[i] - 48);
+		i++;
+	}
+	nbr *= signe;
+	return (nbr);
 }
